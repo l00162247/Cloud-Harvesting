@@ -23,7 +23,7 @@ class CloudSeedTest {
 
     @Test
     void testGetSeedName() {
-        // Verify that getSeedName returns the correct value
+        //  getSeedName should return the correct value
         assertEquals("Test trial here", seed.getSeedName(), 
                 "The seed name should match the initialized value.");
     }
