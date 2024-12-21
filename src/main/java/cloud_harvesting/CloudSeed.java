@@ -7,9 +7,6 @@ public class CloudSeed {
         this.seed = seedName;
     }
 
-    /**
-     * @return String
-     */
     public String getSeedName() {
         return seed;
     }
