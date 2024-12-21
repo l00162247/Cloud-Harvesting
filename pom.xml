@@ -12,6 +12,7 @@
   <dependencies>
     <dependency>
       <groupId>org.junit.jupiter</groupId>
+       <artifactId>maven-checkstyle-plugin</artifactId>
       <artifactId>junit-jupiter</artifactId>
       <version>5.10.0</version>
       <scope>test</scope>
