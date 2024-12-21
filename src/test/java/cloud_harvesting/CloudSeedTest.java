@@ -17,7 +17,7 @@ class CloudSeedTest {
 
     @Test
     void testCloudSeedInitialization() {
-        // Verify that the CloudSeed object is initialized
+        //  the CloudSeed object is initialized
         assertNotNull(seed, "The CloudSeed object should not be null.");
     }
 
