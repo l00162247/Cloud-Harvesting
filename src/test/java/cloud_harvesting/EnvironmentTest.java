@@ -25,6 +25,6 @@ class CloudSeedTest {
     void testGetSeedName() {
         //  getSeedName should return the correct value
         assertEquals("Test trial here", seed.getSeedName(), 
-                "The seed name should match the initialized value.");
+                "The seed name should match the set name");
     }
 }

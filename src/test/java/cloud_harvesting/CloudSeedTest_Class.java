@@ -3,28 +3,29 @@ package cloud_harvesting;
 import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-class CloudSeedTest {
+class CloudSeedTest_Class {
 
     private static CloudSeed seed;
 
-    @BeforeAll
-    static void setUpBeforeClass() {
-        // Initialize the CloudSeed object before all tests
-        seed = new CloudSeed("Test trial here");
-    }
+@BeforeEach
+public void setup() {
+	seed = new CloudSeed("Test trial here");
+}
+
 
     @Test
     void testCloudSeedInitialization() {
         //  the CloudSeed object is initialized
-        assertNotNull(seed, "The CloudSeed object should not be null.");
+        assertNotNull(seed, "no null value");
     }
 
     @Test
     void testGetSeedName() {
-        // Verify that getSeedName returns the correct value
+        // checks that getSeedName returns the correct value
         assertEquals("Test trial here", seed.getSeedName(), 
-                "The seed name should match the initialized value.");
+                "The seed name should match set value");
     }
 }
