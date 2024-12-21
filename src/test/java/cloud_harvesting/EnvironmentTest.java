@@ -17,13 +17,13 @@ class CloudSeedTest {
 
     @Test
     void testCloudSeedInitialization() {
-        //  the CloudSeed object is initialized
+        // Verify that the CloudSeed object is initialized
         assertNotNull(seed, "The CloudSeed object should not be null.");
     }
 
     @Test
     void testGetSeedName() {
-        // Verify that getSeedName returns the correct value
+        //  getSeedName should return the correct value
         assertEquals("Test trial here", seed.getSeedName(), 
                 "The seed name should match the initialized value.");
     }
