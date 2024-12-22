@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>ie.atu.maven</groupId>
   <artifactId>Cloud_Harvesting_Project</artifactId>
-  <pachaging>jar</pachaging>
+  <packaging>jar</packaging>
   <version>0.0.1-SNAPSHOT</version>
 
   <properties>
